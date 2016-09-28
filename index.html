@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+<link rel="stylesheet" href="style.css" />
+</head>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
+</script>
+<script type="text/javascript" src="myfirstAJspage.js"></script>
+<body >
+
+	<div ng-controller="mycntrl">
+		<p>Type your name in the input box:</p>
+		<p>Name : <input type="text" ng-model="name"></p>
+		<p>my name is {{ name }}</p>
+		<p>url : {{ myfirstService }}</p>
+	</div>
+</body>
+</html>
